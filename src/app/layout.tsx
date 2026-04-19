@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Jitter - Fast and simple animation tool",
-  description: "Super fast motion for every team. Create stunning animations online.",
+  title: "Sky — The AI Agent for your Mac",
+  description: "Sky is a native Mac agent that handles your digital errands invisibly in the background while you work.",
 };
 
 export default function RootLayout({
