@@ -81,7 +81,7 @@ function Hero() {
           Your Mac finally does<br />what you tell it to.
         </h1>
 
-        <div className="w-full max-w-6xl mx-auto aspect-[16/9] bg-black rounded-[24px] overflow-hidden relative shadow-[0_30px_80px_rgba(0,0,0,0.12)] border border-gray-100 flex items-center justify-center group mt-4">
+        <div className="w-full max-w-6xl mx-auto aspect-[16/9] bg-black rounded-[24px] overflow-hidden relative border border-gray-100 flex items-center justify-center group mt-4">
           <video 
             src="/demo2.mp4" 
             autoPlay 
