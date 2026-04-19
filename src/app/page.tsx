@@ -71,9 +71,13 @@ function NavBar() {
 
 function Hero() {
   return (
-    <section className="pt-40 pb-20 w-full flex flex-col items-center text-center relative overflow-hidden bg-white">
+    <section className="pt-40 pb-20 w-full flex flex-col items-center text-center relative overflow-hidden bg-[#FAFAFA]">
+      {/* Ambient Studio Lighting Glow */}
+      <div className="absolute top-[-20%] left-1/2 -translate-x-1/2 w-[180%] max-w-[1200px] aspect-square bg-[radial-gradient(circle_at_center,rgba(255,255,255,1)_0%,rgba(255,255,255,0)_70%)] pointer-events-none z-0" />
+      <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[150%] max-w-[1000px] aspect-square bg-[radial-gradient(circle_at_center,rgba(179,146,248,0.08)_0%,rgba(255,255,255,0)_60%)] pointer-events-none z-0 mix-blend-plus-lighter" />
+      
       <div className="relative z-10 max-w-6xl mx-auto px-6 flex flex-col items-center w-full">
-        <h1 className="text-[3.5rem] md:text-[5.5rem] lg:text-[6.5rem] leading-[0.9] font-bold tracking-[-0.04em] max-w-[55rem] mx-auto text-black mt-8 mb-24">
+        <h1 className="text-[3.5rem] md:text-[5.5rem] lg:text-[6.5rem] leading-[0.9] font-bold tracking-[-0.04em] max-w-[55rem] mx-auto text-[#0A0A0A] mt-8 mb-24 drop-shadow-sm">
           Your Mac finally does<br />what you tell it to.
         </h1>
 
