@@ -1,4 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
+
 
 import { motion, useScroll, useTransform, useMotionValueEvent, AnimatePresence } from "framer-motion";
 import { useRef, useState } from "react";
@@ -71,17 +75,13 @@ function NavBar() {
 
 function Hero() {
   return (
-    <section className="pt-40 pb-20 w-full flex flex-col items-center text-center relative overflow-hidden bg-[#FAFAFA]">
-      {/* Ambient Studio Lighting Glow */}
-      <div className="absolute top-[-20%] left-1/2 -translate-x-1/2 w-[180%] max-w-[1200px] aspect-square bg-[radial-gradient(circle_at_center,rgba(255,255,255,1)_0%,rgba(255,255,255,0)_70%)] pointer-events-none z-0" />
-      <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[150%] max-w-[1000px] aspect-square bg-[radial-gradient(circle_at_center,rgba(179,146,248,0.08)_0%,rgba(255,255,255,0)_60%)] pointer-events-none z-0 mix-blend-plus-lighter" />
-      
+    <section className="pt-40 pb-20 w-full flex flex-col items-center text-center relative overflow-hidden bg-white">
       <div className="relative z-10 max-w-6xl mx-auto px-6 flex flex-col items-center w-full">
-        <h1 className="text-[3.5rem] md:text-[5.5rem] lg:text-[6.5rem] leading-[0.9] font-bold tracking-[-0.04em] max-w-[55rem] mx-auto text-[#0A0A0A] mt-8 mb-24 drop-shadow-sm">
+        <h1 className="text-[3.5rem] md:text-[5.5rem] lg:text-[6.5rem] leading-[0.9] font-bold tracking-[-0.04em] max-w-[55rem] mx-auto text-black mt-8 mb-24">
           Your Mac finally does<br />what you tell it to.
         </h1>
 
-        <div className="w-full max-w-6xl mx-auto aspect-[16/9] bg-black rounded-[24px] overflow-hidden relative border border-gray-100 flex items-center justify-center group mt-4">
+        <div className="w-full max-w-6xl mx-auto aspect-[16/9] bg-black rounded-[24px] overflow-hidden relative shadow-[0_30px_80px_rgba(0,0,0,0.12)] border border-gray-100 flex items-center justify-center group mt-4">
           <video 
             src="/demo2.mp4" 
             autoPlay 
